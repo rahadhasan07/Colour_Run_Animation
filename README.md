@@ -3,7 +3,7 @@
 
 <p> <b> This is a normal colour animation </b> </p>
 
-<h1> ❤️ Iam used </h1> 
+<h1> ❤️ Iam used </h1>
 - HTML
 - CSS
 <P>Language</P>
