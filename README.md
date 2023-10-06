@@ -5,5 +5,5 @@
 <h1> ❤️ Iam used </h1>
 
 
-- HTML
-- CSS
+- HTML 44.6%
+- CSS 55.4%
