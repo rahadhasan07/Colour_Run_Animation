@@ -1,0 +1,35 @@
+body {
+  overflow: hidden;
+}
+
+.train {
+  position: absolute;
+  top: 50%;
+  left: -100px;
+  width: 500px;
+  height: 100px;
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  animation: moveTrain 5s linear infinite;
+}
+
+.carriage {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.carriage:nth-child(2),
+.carriage:nth-child(4) {
+  background-color: red;
+}
+
+@keyframes moveTrain {
+  0% {
+    left: -100px;
+  }
+  100% {
+    left: calc(100% + 100px);
+  }
+}
